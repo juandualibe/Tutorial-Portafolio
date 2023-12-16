@@ -1,0 +1,170 @@
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: rgb(244, 247, 247);
+}
+
+.navbar {
+    
+    background-color: rgba(0, 0, 0, 0.469);
+    color: white;
+    box-shadow: 3px 3px 33px black;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white ;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 247, 247);
+    color: black;
+    text-align: center;
+    
+}
+.header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 33px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+#juan {
+    align-self: center;
+    
+}
+
+
+
+
+
+.contenedor-proyectos {
+    position: relative;
+    background-color: rgb(244, 247, 247);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+       
+}
+
+.contenedor-proyectos .proyecto {
+    margin-top: 20px;
+    background-color: rgb(119, 119, 120);
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px black;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    width: 80%;    
+    left: 10%;
+    color: white;
+    position: relative;
+}
+
+
+
+.proyecto img {
+    width: 30%;
+    border-radius: 5px;
+}
+.proyecto h3 {
+    margin-top: 10px;
+}
+.proyecto .detalles {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.5s;
+    display: block;
+}
+.proyecto .detalles:hover {
+    text-decoration: underline;
+    color: red;
+    transform: scale(1.5);
+}
+
+#habilidades {
+    margin-top: 20px;
+    padding: 0;
+    background-color: rgb(244, 247, 247);
+    text-align: center;
+    width: 100%;
+    
+}
+.bx {
+    font-size: 35px;
+    color: blue;
+}
+
+.skills-list {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.skills-list img {
+    width: 3%;
+}
+
+#contacto {
+    padding: 50px 0;
+    background-color: rgb(244, 247, 247);
+}
+
+.contact-form {
+    width: 400px;
+    margin: auto;
+}
+
+.h2contacto {
+    text-align: center;
+}
+
+#pie {
+    background-color: rgba(0, 0, 0, 0.542);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor {
+    overflow: hidden;
+}
+
+.online {
+    list-style: none;
+}
+
+.linkedin, .x, .git {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+    display: block;
+}
+
+.linkedin:hover, .x:hover, .git:hover {
+    transform: scale(1.9);
+    color: red;
+}
+
+
+
+
+
